@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: tahoma;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(66, 14, 14);
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+#logo img{
+    float: left;
+}
+.botonera{
+    float: right;
+}
+.botonera ul{
+    display: flex;
+    list-style: none;
+}
+.botonera a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 25px;
+    
+}
+.banner{
+    background-color: rgb(135, 29, 29);
+}
+.overlay{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+.cont-banner{
+    text-align: center;
+}
+#img-principal{
+    width: 20%;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+.cont-banner h1{
+    color: white;
+}
+.cont-banner p{
+    color: white;
+}
+.first-section{
+    width: 100%;
+    margin: auto;
+}
+.contenido-one{
+    width: 80%;
+    margin: auto;
+}
+.contenido-one-sub{
+    width: 40%;
+}
+.contenido-one-sub h1{
+    color: rgb(92, 92, 92);
+}
+.contenido-one-sub p{
+    color: rgb(132, 132, 132);
+}
+button{
+    background-color: yellow;
+    border: 0px;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+.second-section{
+    width: 100%;
+    margin: auto;
+}
+.contenido-two{
+    width: 80%;
+    margin: auto;
+}
